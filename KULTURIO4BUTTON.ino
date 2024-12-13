@@ -51,7 +51,6 @@ void setup()
  
 void loop()
 {
-  digitalWrite(12, LOW); 
   digitalWrite(LED_BUILTIN, LOW);
  
  
@@ -62,7 +61,7 @@ state = digitalRead(BUTTON_1); //sett "state" variabel til bryter 1
   if(state !=1) //hvis 1...
   {
     digitalWrite(LED_BUILTIN, HIGH);
-      //Posisjon
+      //click position
       Mouse.move(-80,-50,0);
       Mouse.move(0,-100,0);
       Mouse.click();
@@ -84,13 +83,13 @@ state = digitalRead(BUTTON_2);
   if(state !=1)
   {
     digitalWrite(12, HIGH);
-      //posisjon
+      //click position
       Mouse.move(-80,-50,0);
       Mouse.move(0,-100,0);
       Mouse.move(0,-100,0);
       Mouse.move(0,-100,0);
       Mouse.click();
-      //returposisjon
+      //return position
       Mouse.move(100,100,0);
       Mouse.move(100,100,0);
       Mouse.move(100,100,0);
@@ -108,7 +107,7 @@ state = digitalRead(BUTTON_3);
   if(state !=1)
   {
     digitalWrite(12, HIGH);
-      //posisjon
+      //click position
       Mouse.move(-80,-50,0);
       Mouse.move(-100,0,0);
       Mouse.move(-100,0,0);
@@ -118,7 +117,7 @@ state = digitalRead(BUTTON_3);
       Mouse.move(-100,0,0);
       Mouse.move(0,-100,0);
       Mouse.click();
-      //returposisjon
+      //return position
       Mouse.move(100,100,0);
       Mouse.move(100,100,0);
       Mouse.move(100,100,0);
@@ -137,7 +136,7 @@ state = digitalRead(BUTTON_4);
   {
     digitalWrite(12, HIGH);
  
-      //posisjon
+      //click position
       Mouse.move(-80,-50,0);
       Mouse.move(-100,0,0);
       Mouse.move(-100,0,0);
@@ -148,7 +147,7 @@ state = digitalRead(BUTTON_4);
       Mouse.move(0,-100,0);
       Mouse.move(0,-100,0);
       Mouse.click();
-      //returposisjon
+      //return position
       Mouse.move(100,100,0);
       Mouse.move(100,100,0);
       Mouse.move(100,100,0);
