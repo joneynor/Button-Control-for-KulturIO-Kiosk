@@ -10,3 +10,5 @@ For playing movies:<br>
 4 unique autplay displays with the following:<br>
 - Frist i que: Main movie<br>
 - Secound in que: Black<br>
+
+![image](https://github.com/user-attachments/assets/dc19a479-766d-481b-acca-01c8d8c68a3f)
